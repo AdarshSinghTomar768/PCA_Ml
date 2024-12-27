@@ -1,0 +1,11 @@
+prefix=/home/adarsh/Desktop/PCA_Ml/venv
+exec_prefix=/home/adarsh/Desktop/PCA_Ml/venv
+libdir=/home/adarsh/Desktop/PCA_Ml/venv/lib
+includedir=/home/adarsh/Desktop/PCA_Ml/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
